@@ -3,11 +3,11 @@ Priyank Patel
 
 Student #: 100490143
 
-# Steps to Reproduce
-
 # Requirement
 
 Mongo DB must be running on localhost at port 27017
+
+# Steps to Reproduce
 
 ### Virtual Environments
 
