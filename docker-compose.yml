@@ -1,0 +1,12 @@
+version: '2'
+
+services:
+    api-call:
+        build: .
+        ports:
+            - "8080:5000"
+        depends_on:
+            - mongo
+    
+    mongo:
+        image: mongo:3.4.0
