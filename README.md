@@ -12,15 +12,15 @@ pip install virtualenv
 virtualenv venv
 ```
 
-2. Activate the virtualenv and install the predefined packages. This tutorial was made for linux, but you can find the Windows translation [here](https://github.com/sealneaward/template-py#windows-setup).
+2. Activate the virtualenv and install the predefined packages.
 ```
 source venv/bin/activate
 pip install -r requirements.txt
 ```
-
-3. You can add packages to your virtualenv and update the requirements for your project as you proceed.
+3. Run the application by running the following command:
+For example, python app.py 'Faceless Void'
 ```
-pip freeze > requirements.txt
+python app.py '{Hero Name}'
 ```
 
 # Steps to Reproduce
