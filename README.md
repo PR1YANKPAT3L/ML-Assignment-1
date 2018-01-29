@@ -4,6 +4,10 @@ Student #: 100490143
 
 # Steps to Reproduce
 
+# Requirement
+
+Mongo DB must be running on localhost at port 27017
+
 ### Virtual Environments
 
 1. Create the virtual environment.
