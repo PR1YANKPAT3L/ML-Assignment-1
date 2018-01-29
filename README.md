@@ -2,7 +2,7 @@
 Priyank Patel
 Student #: 100490143
 
-# Requirements
+# Steps to Reproduce
 
 ### Virtual Environments
 
@@ -17,10 +17,13 @@ virtualenv venv
 source venv/bin/activate
 pip install -r requirements.txt
 ```
+
+### Run the application
+
 3. Run the application by running the following command:
 For example, python app.py 'Faceless Void'
 ```
 python app.py '{Hero Name}'
 ```
 
-# Steps to Reproduce
+The list of heroes can be found [here](https://dota2.gamepedia.com/Heroes)
