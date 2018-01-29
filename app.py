@@ -54,7 +54,7 @@ if len(sys.argv) < 2:
 else:
     hero_name = sys.argv[1]
 
-    client = MongoClient('localhost', 27017)
+    client = MongoClient('mongo', 27017)
     print Colors.OKGREEN + "Connected to MongoDB." + Colors.ENDC
     db = client.assignment_1
 
